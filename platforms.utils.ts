@@ -99,9 +99,12 @@ export const platforms:Platforms = {
         },
   mail : {
               name:'mail',
-              url: 'mailto:?subject=',
+              url: 'mailto:?body=',
               logoOfficial:'envelope',
               logo:'mail',
               text:'Mail',
+              properties:{
+                subject:'title'
+              }
         }
 }
